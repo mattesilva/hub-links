@@ -1,0 +1,85 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variaveis para cores */
+:root {
+    --verdegrama: #45C372;
+    --branco: #FFFFFF;
+    --cinzaclaro: #D9D9D9;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: "Amatic SC", sans-serif;
+    background-image: url(./img/life.jpg);
+    background-size: 410px;
+}
+
+/* Cabeçalho */
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 18px;
+    border-radius: 50%;
+}
+
+/* principal */
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    margin: 6px 0px;
+    font-size: 1.25rem;
+    font-weight: 650;
+    color: var(--Preto);
+
+}
+
+main p {
+    max-width: 350px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--cinza-preto);
+}
+
+/* Links */
+#links {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > a {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    width: 310px;
+    height: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 15px;
+}
+
+footer img {
+    margin: 0px 10px;
+}
