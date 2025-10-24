@@ -53,7 +53,10 @@ main p {
     margin-bottom: 20px;
     font-weight: 400;
     font-size: 1.4rem;
-    color: var(--cinza-preto);
+    color: var(--cinzaclaro);
+    font-weight: 1000;
+    background: #000000;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Links */
